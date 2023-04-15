@@ -1,0 +1,61 @@
+
+h3{
+    text-align: center;
+    background-color: black;
+    height: 5rem;
+    font-variant: small-caps;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: white;
+    
+}
+p{
+    text-align: center;
+    color: seagreen;
+    text-decoration: underline;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+table,th,td{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 50px;
+    /* border-bottom: 1px solid black; */
+    border: 1px solid black;
+}
+td{
+    padding-left: 10px;
+}
+th{
+    padding-left: 10px;
+}
+
+input[type=text],[type=email],[type=number],[type=date],[type=time]{
+    box-sizing: border-box;
+    border: none;
+    background-color: whitesmoke;
+    /* border-bottom: 2px solid seagreen; */
+    
+   
+}
+textarea{
+    box-sizing: border-box;
+    border: none;
+    /* border-bottom: 2px solid  seagreen; */
+    width:90%;
+    background-color: whitesmoke;
+    
+}
+select{
+    border: 1px solid seagreen;
+    background-color: whitesmoke;
+}
+option{
+    background-color:  whitesmoke;
+}
+table{
+    margin-bottom: 20px;
+}
+
+
